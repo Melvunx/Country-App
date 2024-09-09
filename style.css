@@ -152,6 +152,7 @@ button:hover {
 .countries-container {
   width: 95%;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 10px auto;
   gap: 20px;
@@ -207,4 +208,20 @@ img {
   &:hover {
     transform: scale(1.1);
   }
+}
+
+h2 {
+  text-align: center;
+  line-height: 30px;
+}
+
+h1.noRes {
+  text-align: center;
+  font-family: "Gabriela";
+  font-size: 3rem;
+}
+
+.highlight {
+  color: orangered;
+  font-weight: bold;
 }
